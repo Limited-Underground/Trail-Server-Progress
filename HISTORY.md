@@ -3,6 +3,19 @@
 This timeline records meaningful Trail Server progress at the level appropriate
 for public release. Evidence labels are explained in [Status](STATUS.md).
 
+## September 2026
+
+### September 18 — Gateway authenticated-session target build
+
+The bounded gateway session behavior advanced from host-only checks to an
+ESP32-S3 build of its volatile directional-key and authenticated-frame
+boundary. Its deterministic device checks are present in the image but have
+not yet been executed on hardware. Wi-Fi/TLS integration, server API wiring,
+credential provisioning, board-specific radio bindings and RF evidence remain
+open.
+
+**Evidence:** target-built firmware component; no device-runtime or RF claim.
+
 ## August 2026
 
 ### August 27 — Project foundation
