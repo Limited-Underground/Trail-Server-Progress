@@ -2,6 +2,9 @@
 
 ## 2026-09-18
 
+- Added the ESP32-S3 target-build milestone for the gateway's volatile
+  directional session-key and authenticated-frame boundary. Hardware execution
+  and network/RF integration remain open.
 - Added the authenticated gateway wire-frame and firmware session-gate host-test milestone.
 - Added the complete public project history from the August 2026 foundation
   through the current gateway diagnostic work.
