@@ -103,3 +103,14 @@ this separate progress-only public record was created with fresh history.
 Routine dependency and security maintenance was also completed privately.
 
 **Evidence:** repository boundary and maintenance review.
+
+### September 18 — Authenticated gateway session gate
+
+The accepted gateway interface gained a complete bounded wire-frame definition
+and a host-tested fixed-buffer firmware session gate. Exact frame bytes are
+shared by the server-contract and firmware tests. Invalid
+authentication, identity, replay, and canonical-body inputs are rejected before
+queue state changes.
+
+**Evidence:** cross-implementation host tests; target cryptography, networking,
+device firmware, and RF remain open.

@@ -2,6 +2,7 @@
 
 ## 2026-09-18
 
+- Added the authenticated gateway wire-frame and firmware session-gate host-test milestone.
 - Added the complete public project history from the August 2026 foundation
   through the current gateway diagnostic work.
 - Added a dated status checkpoint, evidence vocabulary, and capability matrix.
