@@ -26,7 +26,7 @@ bring-up. The system has not reached deployment or field acceptance.
 | Persistence | Host-tested | Database, migrations, role separation, and a bounded recovery proof exist. |
 | Local administration | Host-tested | Authentication and narrow local-client access were exercised; security and usability work remains. |
 | Local server radio | Host simulation | The versioned process boundary was tested without physical RF acceptance. |
-| Wi-Fi gateway interface | Host-tested | Authentication, queues, durable receipt, reconnect, and uncertain outcomes were exercised in software. |
+| Wi-Fi gateway interface | Host-tested | Authentication, bounded framing, queue mutation gates, durable receipt, reconnect, and uncertain outcomes were exercised in software. |
 | ThinkNode G3 gateway | Hardware diagnostic | Hardware was identified and diagnostic firmware probes were recoverable. Live RF is not established. |
 | Large-file delivery | Planned | File transfer is intended to use local network services rather than LoRa. |
 | Field deployment | Planned | No field or production acceptance has been claimed. |
