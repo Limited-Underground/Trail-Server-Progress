@@ -5,6 +5,17 @@ for public release. Evidence labels are explained in [Status](STATUS.md).
 
 ## September 2026
 
+### September 20 — Gateway cryptographic component hardware pass
+
+The gateway's authenticated-session cryptographic component completed its
+bounded hardware checks on the target gateway. The trial also verified return
+to the preserved stock application. Credential provisioning, network/API
+integration, complete board binding, RF behavior and field operation remain
+open.
+
+**Evidence:** hardware-tested component with verified stock restoration; no
+network, RF or deployment claim.
+
 ### September 18 — Gateway authenticated-session target build
 
 The bounded gateway session behavior advanced from host-only checks to an
