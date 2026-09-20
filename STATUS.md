@@ -1,6 +1,6 @@
 # Current status
 
-**Checkpoint:** September 18, 2026
+**Checkpoint:** September 20, 2026
 
 Trail Server is an active engineering project. Several foundations have passed
 bounded host checks, and the first gateway hardware has entered diagnostic
@@ -13,6 +13,7 @@ bring-up. The system has not reached deployment or field acceptance.
 | Planned | Direction is recorded, but implementation evidence is not accepted. |
 | Host-tested | Behavior was exercised in software on a development or target host. |
 | Target-built | Target-specific source compiled into a device image; device execution is not implied. |
+| Hardware-tested | Bounded component behavior ran on target hardware; RF, field and deployment acceptance are not implied. |
 | Hardware diagnostic | A physical device was inspected or used for a bounded engineering probe. |
 | Field-tested | Behavior was exercised in its intended field setting. |
 | Production-ready | Deployment, operations, recovery, and supported behavior are accepted together. |
@@ -27,7 +28,7 @@ bring-up. The system has not reached deployment or field acceptance.
 | Persistence | Host-tested | Database, migrations, role separation, and a bounded recovery proof exist. |
 | Local administration | Host-tested | Authentication and narrow local-client access were exercised; security and usability work remains. |
 | Local server radio | Host simulation | The versioned process boundary was tested without physical RF acceptance. |
-| Wi-Fi gateway interface | Host-tested; crypto component target-built | Authentication, bounded framing, queue mutation gates, durable receipt, reconnect, and uncertain outcomes were exercised in software; the ESP32-S3 cryptographic boundary now builds but has not run on hardware. |
+| Wi-Fi gateway interface | Host-tested; crypto component hardware-tested | Authentication, bounded framing, queue mutation gates, durable receipt, reconnect, and uncertain outcomes were exercised in software; the ESP32-S3 cryptographic component passed a bounded hardware check and stock restoration. |
 | ThinkNode G3 gateway | Hardware diagnostic | Hardware was identified and diagnostic firmware probes were recoverable. Live RF is not established. |
 | Large-file delivery | Planned | File transfer is intended to use local network services rather than LoRa. |
 | Field deployment | Planned | No field or production acceptance has been claimed. |
