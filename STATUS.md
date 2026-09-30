@@ -1,49 +1,20 @@
 # Current status
 
-**Checkpoint:** September 20, 2026
+**Checkpoint: September 29, 2026**
 
-Trail Server is an active engineering project. Several foundations have passed
-bounded host checks, and the first gateway hardware has entered diagnostic
-bring-up. The system has not reached deployment or field acceptance.
+Trail Server remains an optional project under development. Host checks establish
+bounded behavior; deployment, field and production acceptance remain separate.
 
-## Evidence labels
-
-| Label | Meaning |
-| --- | --- |
-| Planned | Direction is recorded, but implementation evidence is not accepted. |
-| Host-tested | Behavior was exercised in software on a development or target host. |
-| Target-built | Target-specific source compiled into a device image; device execution is not implied. |
-| Hardware-tested | Bounded component behavior ran on target hardware; RF, field and deployment acceptance are not implied. |
-| Hardware diagnostic | A physical device was inspected or used for a bounded engineering probe. |
-| Field-tested | Behavior was exercised in its intended field setting. |
-| Production-ready | Deployment, operations, recovery, and supported behavior are accepted together. |
-
-## Capability snapshot
-
-| Area | Current level | Public status |
+| Area | Evidence so far | Still required |
 | --- | --- | --- |
-| System architecture | Host-tested foundations | Optional server boundaries and core host profile are established. |
-| Linux host setup | Host-tested | Clean-host reproduction passed; final physical-host and network acceptance remain open. |
-| Service foundation | Host-tested | Health and development-console paths exist in bounded form. |
-| Persistence | Host-tested | Database, migrations, role separation, and a bounded recovery proof exist. |
-| Local administration | Host-tested | Authentication and narrow local-client access were exercised; security and usability work remains. |
-| Local server radio | Host simulation | The versioned process boundary was tested without physical RF acceptance. |
-| Wi-Fi gateway interface | Host-tested; crypto component hardware-tested | Authentication, bounded framing, queue mutation gates, durable receipt, reconnect, and uncertain outcomes were exercised in software; the ESP32-S3 cryptographic component passed a bounded hardware check and stock restoration. |
-| ThinkNode G3 gateway | Hardware diagnostic | Hardware was identified and diagnostic firmware probes were recoverable. Live RF is not established. |
-| Large-file delivery | Planned | File transfer is intended to use local network services rather than LoRa. |
-| Field deployment | Planned | No field or production acceptance has been claimed. |
+| Administration | Named accounts, roles and managed group/device records passed isolated database and interface checks. | Supported deployment and client acceptance. |
+| Record lifecycle | Explicit deletion, bounded audit retention and export passed host checks. | Operational storage, access and recovery acceptance. |
+| Offline maps | Bounded map-package delivery and a local browser viewer passed host checks. | Trusted client access, deployment and operational recovery. |
+| Server and gateway integration | Authenticated sessions, bounded queues, restart and failure paths passed production-code host tests. | Approved protected storage and configuration, physical network and radio validation. |
+| Gateway target | Network composition builds for the development target; earlier bounded hardware diagnostics remain limited to their tested components. | Complete hardware binding, interoperability and endurance. |
+| Backup and upgrades | Disposable recovery preserved records, stable IDs, schema and permissions. Failed upgrades rolled back; successful upgrades preserved data. | Backup policy, protected-state recovery and supported Linux operational tests. |
 
-## Current engineering focus
-
-- complete the supported ThinkNode G3 hardware binding and live RF evidence;
-- connect the authenticated gateway interface to the server service;
-- finish repeatable local-network startup and independent-client acceptance;
-- strengthen local administration security, recovery, and accessibility;
-- extend persistence, backup, and recovery beyond the bounded foundation; and
-- keep all optional services independent from OpenTrail's offline field path.
-
-## Claims deliberately not made
-
-Trail Server is not described here as deployed, production-ready, field-tested,
-safety-certified, highly available, or capable of guaranteed message delivery.
-Gateway radio emission would not by itself prove end-device delivery.
+Gateway features remain disabled without approved protected storage and
+configuration. No supported production release, field readiness, guaranteed
+delivery or safety assurance is claimed. Server loss must not disable the
+base OpenTrail field path.

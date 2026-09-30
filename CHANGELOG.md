@@ -1,5 +1,11 @@
 # Public progress changelog
 
+## 2026-09-29
+
+- Updated bounded host progress for administration, records, maps and gateway integration.
+- Added gateway network target-build and disposable recovery milestones.
+- Kept protected-storage, hardware, deployment and production recovery gates explicit.
+
 ## 2026-09-20
 
 - Advanced the gateway authenticated-session cryptographic component from a
