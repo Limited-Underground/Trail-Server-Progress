@@ -1,38 +1,25 @@
 # Public roadmap
 
-The roadmap is ordered by technical dependency, not by a promised release date.
-It describes capability goals without exposing private implementation plans.
+Work follows technical dependencies rather than promised release dates.
 
-## Foundations completed in bounded form
+## Foundations with bounded evidence
 
-- optional server architecture and project boundaries;
-- reproducible Linux development-host baseline;
-- service health and development-console foundation;
-- database persistence, role separation, and isolated recovery proof;
-- versioned local-radio interface in host simulation;
-- authenticated Wi-Fi gateway behavior in deterministic host tests; and
-- initial ThinkNode G3 identification and recoverable diagnostic trials.
+- Optional Server architecture and offline-first project boundaries.
+- Host-tested administration, roles, group/device records and record lifecycle.
+- Host-tested offline map delivery and browser viewing.
+- Host-tested authenticated Server/gateway sessions and bounded queues.
+- Gateway network target builds and earlier recoverable component diagnostics.
+- Disposable database restore, permission comparison and upgrade checks.
 
-## Work in progress
+## Remaining acceptance work
 
-- repeatable local-network addressing, reboot behavior, and independent-client
-  acceptance;
-- administrator transport security, account lifecycle, recovery, and
-  accessibility;
-- remaining domain records and queues;
-- server-side authenticated gateway ingestion and credential lifecycle;
-- supported ThinkNode G3 firmware binding;
-- live LoRa receive, transmit, restart, and recovery evidence; and
-- operational backup and recovery procedures beyond the bounded proof.
+- Select and validate protected storage, credential custody and recovery.
+- Complete supported gateway hardware binding and Trail radio interoperability.
+- Validate the actual gateway network path, failure handling and endurance.
+- Complete trusted local-network deployment and independent-client testing.
+- Select backup policy and validate encrypted, separately stored recovery.
+- Validate upgrades, reboot behavior, monitoring and operational recovery.
+- Run field trials and review real feedback before expanding readiness claims.
 
-## Planned after the foundations
-
-- map and live-data experiences backed by accepted server records;
-- bounded large-file delivery over local network services;
-- broader multi-client and long-running reliability exercises;
-- deployment, monitoring, upgrade, and recovery operations; and
-- field trials followed by a separately reviewed readiness decision.
-
-Plans may change as hardware and field evidence develops. Completed host tests do
-not automatically advance a capability to hardware, field, deployment, or
-production acceptance.
+Host tests and target builds do not establish physical or production acceptance.
+The Server remains optional to the base OpenTrail field path.
