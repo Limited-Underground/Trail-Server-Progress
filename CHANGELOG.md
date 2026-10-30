@@ -1,5 +1,19 @@
 # Public progress changelog
 
+## 2026-10-28
+
+### Host-only service-health reporting checkpoint
+
+Completed additional isolated host validation of service-health reporting and a
+bounded HTTP/serialization adapter. Recorded builds and automated checks passed,
+with independent review. The implementation remains an unpublished candidate;
+this public summary is not a source release or a deployed-service claim.
+
+Real service/database integration, production authorization and clock-validity
+decisions remain open. No new hardware, gateway, physical, field or production
+acceptance is reported. Private implementation, contracts and detailed evidence
+remain outside this public progress repository.
+
 ## 2026-09-29
 
 - Updated bounded host progress for administration, records, maps and gateway integration.
