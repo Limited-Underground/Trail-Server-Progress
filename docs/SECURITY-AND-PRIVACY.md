@@ -1,11 +1,11 @@
 # Security and privacy principles
 
-Trail Server is being designed for local, owner-controlled operation. The
+MeshTrail Server is being designed for local, owner-controlled operation. The
 current implementation remains private while the project develops.
 
 Publicly stated principles are:
 
-- optional server services must not weaken the independent OpenTrail field path;
+- optional server services must not weaken the independent MeshTrail field path;
 - server and gateway interfaces must be versioned, authenticated, and limited to
   their stated purpose;
 - durable receipt is acknowledged only after durable server storage;

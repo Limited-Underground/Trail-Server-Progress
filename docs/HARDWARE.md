@@ -13,10 +13,10 @@ identified:
 | Stock recovery | Preservation and restoration exercised during bounded trials |
 | Diagnostic firmware | Initial recoverable probes completed |
 | Live LoRa operation | Not established |
-| Supported Trail gateway firmware | In development |
+| Supported MeshTrail gateway firmware | In development |
 
 The device is a candidate under investigation, not an endorsed or
-production-ready Trail Server gateway. The enclosure, setup interface, network
+production-ready MeshTrail Server gateway. The enclosure, setup interface, network
 options, and selectable regional settings were inspected, but configuration
 options alone do not prove radio compatibility or legal operating parameters.
 

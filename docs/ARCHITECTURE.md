@@ -1,19 +1,19 @@
 # Public architecture overview
 
-Trail Server extends an offline-first field system without becoming a dependency
+MeshTrail Server extends an offline-first field system without becoming a dependency
 of that system.
 
 ```mermaid
 flowchart TB
     subgraph Field[Independent field path]
-        D[Trail-compatible field devices]
-        P[OpenTrail phone]
+        D[MeshTrail-compatible field devices]
+        P[MeshTrail App]
         D <-->|Protected local links| P
     end
 
     subgraph Optional[Optional local services]
         G[Placeable LoRa gateway]
-        S[Trail Server]
+        S[MeshTrail Server]
         U[Local administrator]
         G -->|Authenticated local-network interface| S
         U -->|Local administration| S
@@ -24,8 +24,8 @@ flowchart TB
 
 ## Boundaries
 
-- **OpenTrail field operation remains independent.** Supported direct local
-  operation does not require Trail Server, a gateway, or internet access.
+- **MeshTrail field operation remains independent.** Supported direct local
+  operation does not require MeshTrail Server, a gateway, or internet access.
 - **The gateway is a bounded bridge.** It connects compatible radio traffic to
   authenticated local server services. It is not the authority for field-device
   identity or safety.

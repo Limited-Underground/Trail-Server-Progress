@@ -1,6 +1,6 @@
 # Project history
 
-This timeline records meaningful Trail Server progress at the level appropriate
+This timeline records meaningful MeshTrail Server progress at the level appropriate
 for public release. Evidence labels are explained in [Status](STATUS.md).
 
 ## September 2026

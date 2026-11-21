@@ -1,11 +1,11 @@
-# Limited Underground Trail Server
+# MeshTrail Server
 
-Trail Server is an optional companion project for the OpenTrail ecosystem. It
+MeshTrail Server is an optional companion project for the MeshTrail ecosystem. It
 is being developed privately. This public record reports milestones without
 publishing source code, firmware, private infrastructure, device identifiers,
 credentials, or operational evidence.
 
-The base OpenTrail field path remains offline-first. Trail Server and its
+The base MeshTrail field path remains offline-first. MeshTrail Server and its
 gateway are optional and their absence or failure must not prevent supported
 local field operation.
 
@@ -29,6 +29,6 @@ release, guaranteed delivery, safety or field-readiness claim is made.
 
 ## Source availability
 
-Trail Server source code is private and is not distributed through this public
+MeshTrail Server source code is private and is not distributed through this public
 progress repository. Historical source versions that were previously published
 retain the licenses attached to those versions.
