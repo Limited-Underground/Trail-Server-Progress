@@ -1,6 +1,6 @@
 # Public progress publication rules
 
-This directory is the only source for the separate Trail Server public progress
+This directory is the only source for the separate MeshTrail Server public progress
 repository. Publish it from fresh Git history; never copy the private
 repository's `.git` directory or merge private branches into the public remote.
 

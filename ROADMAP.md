@@ -14,7 +14,7 @@ Work follows technical dependencies rather than promised release dates.
 ## Remaining acceptance work
 
 - Select and validate protected storage, credential custody and recovery.
-- Complete supported gateway hardware binding and Trail radio interoperability.
+- Complete supported gateway hardware binding and MeshTrail radio interoperability.
 - Validate the actual gateway network path, failure handling and endurance.
 - Complete trusted local-network deployment and independent-client testing.
 - Select backup policy and validate encrypted, separately stored recovery.
@@ -22,4 +22,4 @@ Work follows technical dependencies rather than promised release dates.
 - Run field trials and review real feedback before expanding readiness claims.
 
 Host tests and target builds do not establish physical or production acceptance.
-The Server remains optional to the base OpenTrail field path.
+The Server remains optional to the base MeshTrail field path.

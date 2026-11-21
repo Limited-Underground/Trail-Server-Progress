@@ -2,7 +2,7 @@
 
 **Checkpoint: September 29, 2026**
 
-Trail Server remains an optional project under development. Host checks establish
+MeshTrail Server remains an optional project under development. Host checks establish
 bounded behavior; deployment, field and production acceptance remain separate.
 
 | Area | Evidence so far | Still required |
@@ -17,4 +17,4 @@ bounded behavior; deployment, field and production acceptance remain separate.
 Gateway features remain disabled without approved protected storage and
 configuration. No supported production release, field readiness, guaranteed
 delivery or safety assurance is claimed. Server loss must not disable the
-base OpenTrail field path.
+base MeshTrail field path.
